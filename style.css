@@ -1,0 +1,388 @@
+/* global reset */
+*{
+    box-sizing: border-box;
+    /* max-width: 1200px; */
+    line-height:24px;
+    /* background-color: #fff; */
+    /* background: linear-gradient(0deg, rgba(0,1,36,0) 0%, rgba(9,121,114,0) 22%, rgba(0,212,255,1) 100%); */
+}
+
+a{
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+}
+
+body{
+    /* background-color: burlywood; */
+    margin: 0;
+    padding: 0;
+   
+background: linear-gradient(0deg, rgba(0,1,36,0) 0%, rgba(9,121,114,0) 22%, rgba(0,212,255,1) 100%);
+    /* justify-content: center; */
+
+    
+
+}
+/* global reset end */
+
+/* header start */
+header{
+    /* background-color: yellow; */
+    /* border: solid black; */
+    /* background: rgb(0,1,36);
+    background: linear-gradient(0deg, rgba(0,1,36,0.5298494397759104) 0%, rgba(9,121,114,0.3533788515406162) 22%, rgba(0,212,255,1) 100%); */
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* position: absolute; */
+    padding-right: 8px;
+    padding-right: 32px;
+    /* min-width: 1200px; */
+
+
+}
+
+.navBar{
+    display: flex;
+    /* background-color: red ; */
+    /* border: solid black; */
+    /* gap: 32px; */
+    justify-content: center;
+    margin-right: 16px;
+}
+
+.link{
+    /* background-color: aliceblue; */
+    /* border: dashed red; */
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon1 {
+    /* background-color: blue; */
+    display: flex;
+    height: 24px;
+    /* gap: 80px; */
+    justify-content: center;
+    position: relative; 
+    left: 70px;  
+}
+
+.icon1 a img{
+    width: 100%;
+    height: 100%;
+}
+
+.icon2 {
+    /* background-color: blue; */
+    display: flex;
+    height: 24px;
+    /* gap: 80px; */
+    justify-content: center;
+    position: relative;
+    top: 2px;
+    left: 132px;
+}
+
+.icon2 a img {
+    width: 100%;
+    height: 100%;
+}
+.icon3 {
+    /* background-color: blue; */
+    display: flex;
+    height: 24px;
+    /* gap: 80px; */
+    justify-content: center;
+    position: relative;
+    top: 1px;
+    left: 225px;
+}
+
+.icon3 a img{
+    width: 100%;
+    height: 100%;
+}
+.icon4 {
+    /* background-color: blue; */
+    display: flex;
+    /* height: 32px; */
+    justify-content: center;
+    align-items: center;
+    /* gap: 80px; */
+    /* justify-content: center; */
+    position: relative;
+    left: 352px;
+    top: 2px;
+    /* bottom: 8; */
+    width: 24px;
+}
+
+.icon4 a img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Header end */
+
+/* Index content start */
+/* main{
+
+    display: flex;
+    margin: 0;
+    padding: 0;
+} */
+
+.mainIndexContent{
+    display:flex;
+    flex-direction: row;
+    /* margin: 8px; */
+    margin-top: 16px;
+    /* border: solid green; */
+    /* gap: ; */
+    /* min-width: 1200px; */
+    /* background-color: #161313; */
+    /* size:calc(100vh - 80px); */
+    justify-content: space-evenly;
+
+    /* gap: 64px; */
+}
+
+
+
+
+.indexBiography{
+display: flex;
+/* background-color: white; */
+flex-direction: column;
+justify-content:center;
+/* align-items: stretch; */
+/* padding: 16px; */
+margin:8px;
+/* margin-left: 8px; */
+justify-content: space-between;
+max-width: 50%;
+}
+
+.portrait{
+    /* border: solid rgb(233, 28, 28) 5px; */
+    max-width: 480px;
+    max-height: 560px;
+    /* margin:8px; */
+}
+
+.mainIndexContent .portrait img{
+    width: 100%;
+    height: 100%;
+    border-radius:  50%;
+    
+}
+
+.biographyContent1{
+    /* background-color: #e91919; */
+    /* border: solid rgb(3, 255, 192); */
+    border-bottom: solid black 0.5px;
+
+}
+
+.biographyContent2{
+    /* background-color: #e91313;
+    border: solid rgb(3, 255, 192);
+*/
+border-bottom: solid black 0.5px;
+} 
+
+.biographyContent3{
+    /* /* background-color: #e01616; */
+    /* border: solid rgb(3, 255, 192);  */
+    position: relative;
+    top: -8px;
+
+    /* margin-top: 0px; */
+}
+
+.mainContent ul{
+    list-style-position: inside;
+    margin: 5px;
+   
+}
+
+.indexList{
+/* border: solid black; */
+/* background-color: #fff; */
+display: flex;
+justify-content: flex-start;
+padding: 8px;
+padding-left: 0px;
+margin-top: 0px;
+}
+
+.indexFirstList{
+/* background-color: #d42323; */
+margin-right: 54px;
+margin-left: 16px;
+margin-top: 0px;
+}
+
+.indexSecondList{
+/* background-color: #fff; */
+}
+
+
+/* index content end*/
+
+/* Contact me content Start*/
+.mainContact{
+    height: calc(100vh - 80px);
+    /* background-color: #cf1e1e; */
+    /* padding-top: 10%; */
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+
+
+.contactForm{
+    padding: 16px;
+    border: solid black;
+    background-color: #fff;
+    margin: 0 auto;
+    /* min-width:  40px; */
+    /* min-height: 320px; */
+}
+
+.contactForm label, .contactForm input{
+    width: 100%;
+}
+
+.contactFormMessage{
+    width: 100%;
+    padding-bottom: 30%;
+}
+
+.contactForm .submitButton{
+margin-top: 8px;
+width: 56px;
+margin-left: 8px;
+}
+/* contact me content end */
+
+
+/* work experience start */
+.mainWork{
+    height: calc(100vh - 80px);
+}
+
+.mainWork p{
+   
+    padding-left: 45%;
+    font-weight: 900;
+}
+.workContainer{
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* margin-top: 100px; */
+    padding:16px;
+}
+
+.workTable
+{
+    /* background-color: #eb3030; */
+    /* border-collapse: collapse; */
+    /* background-color: rgb(118, 105, 168); */
+    /* width: 40%; */
+}
+
+.workTable table{
+    border-collapse: collapse;
+    /* background-color: r; */
+    text-align: center;
+}
+
+.workTable table tr{
+    border: solid;
+    width: 40px;
+}
+
+.workTable table th{
+    border: solid;
+    width: 200px;
+}
+
+.workTable table td{
+    border: solid;
+    width: 40px;
+    /* border-collapse:collapse; */
+    /* margin: 0; */
+
+}
+/* work experience end */
+
+/* Education Start */
+.mainEducation{
+    height: calc(100vh - 80px);
+}
+
+.mainEducation p{
+   
+    padding-left: 45%;
+    font-weight: 900;
+}
+.educationContainer{
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* margin-top: 100px; */
+    padding:16px;
+}
+
+.educationTable
+{
+    /* background-color: #eb3030; */
+    /* border-collapse: collapse; */
+    /* background-color: rgb(118, 105, 168); */
+    /* width: 40%; */
+}
+
+.educationTable table{
+    border-collapse: collapse;
+    /* background-color: r; */
+    text-align: center;
+}
+
+.educationTable table tr{
+    border: solid;
+    width: 40px;
+}
+
+.educationTable table th{
+    border: solid;
+    width: 200px;
+}
+
+.educationTable table td{
+    border: solid;
+    width: 40px;
+    /* border-collapse:collapse; */
+    /* margin: 0; */
+
+}
+/* Education End */
+
+
+
+
+
+
